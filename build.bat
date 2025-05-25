@@ -1,0 +1,1 @@
+python -m PyInstaller --onefile --noconsole --icon=icon.ico --add-data "icon.png;." main.py
